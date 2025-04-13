@@ -1,0 +1,16 @@
+{
+  "name": "contact-form",
+  "version": "1.0.0",
+  "description": "Simple contact form with serverless backend",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel deploy --prod"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.1"
+  },
+  "devDependencies": {
+    "vercel": "^28.20.0"
+  }
+}
